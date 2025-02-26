@@ -30,7 +30,7 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #e5eaee;  /* The default color of the main navmenu links */
-  --nav-hover-color: #00697C; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #00697C;/* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
@@ -1843,4 +1843,30 @@ section,
 --------------------------------------------------------------*/
 .starter-section{
   /* Add your styles here */
+}
+.btn-falar-especialista{
+  display: flex;
+  text-align: center;
+  background-color: #00697C;
+  color:white;
+  padding: 10px;
+  border-radius: 3px;
+}
+.btn-falar-especialista:hover{
+  color: white;
+}
+.btn-quero-saber-mais{
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+.btn-quero-saber-mais:hover{
+  color: white;
 }
